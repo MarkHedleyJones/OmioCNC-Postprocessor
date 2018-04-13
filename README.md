@@ -21,6 +21,9 @@ Open the CAM Workspace (top left dropdown)
 Add a basic cam operation (ignore this step if you've already got an operation from an existing part).
 ![Basic cam operation](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicCAMOperation.PNG)
 
+Open the Post Process dialog for your cam operation.
+![Open Post Process](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-PostProcess.png)
+
 Select the OmioCNC post-processor (omio-grbl) from the available post-processors.
 ![Select omio-grbl](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-SelectPostConfiguration.PNG)
 
