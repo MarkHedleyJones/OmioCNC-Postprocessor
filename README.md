@@ -13,19 +13,19 @@ Fortunately, this customised grbl post generation script will have your CNC runn
 ### Configure Fusion 360:
 
 Create a basic part (or open an existing one) so we can access the Post-Processor dialog box.
-![Create basic part](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicPart.PNG)
+![Create basic part](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicPart-edited.PNG)
 
 Open the CAM Workspace (top left dropdown)
-![Open cam workspace](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-OpenCAMWorkspace.PNG)
+![Open cam workspace](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-OpenCAMWorkspace-edited.PNG)
 
 Add a basic cam operation (ignore this step if you've already got an operation from an existing part).
-![Basic cam operation](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicCAMOperation.PNG)
+![Basic cam operation](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicCAMOperation-edited.PNG)
 
 Open the Post Process dialog for your cam operation.
-![Open Post Process](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-PostProcess.png)
+![Open Post Process](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-PostProcess-edited.png)
 
 Select the OmioCNC post-processor (omio-grbl) from the available post-processors.
-![Select omio-grbl](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-SelectPostConfiguration.PNG)
+![Select omio-grbl](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-SelectPostConfiguration-edited.PNG)
 
 ## Installation into HSMWorks/HSMExpress:
 Once you have a working installation of Solidworks and HSMWorks (or HSMXpress), add this post processor by following these steps:
