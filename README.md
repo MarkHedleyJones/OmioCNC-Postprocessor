@@ -1,16 +1,37 @@
 # OmioCNC-Postprocessor
 If you've got an OmioCNC machine with the [EPL Offline Controller](https://www.omiocnc.com/epl-4f-control-system/) (commonly known as The Orange Box), the postprocessor in this repository will help when generating your `.nc` files.
-There are a couple of quirks with the way the controller interprets the `.nc` files which means the standard grbl postprocessor doesn't work properly.
-Fortunately, this customised grbl post generation script appears to solve those issues.
+There are a couple of quirks with the way the controller interprets the `.nc` files which means the standard grbl postprocessor doesn't work quite right.
+Fortunately, this customised grbl post generation script will have your CNC running with popular CAM packages such as Fusion360 and HSMWorks/HSMExpress.
 
 
-## Installation:
+## Installation into Fusion 360:
+
+### Download and extract the post-processor:
+* Download the repository as a ZIP file.
+* Extract the zip file and copy the file `omio-grbl.cps` into the folder `C:/Users/[Username]/AppData/Local/Autodesk/webdeploy/production/[Unique Installation ID]/Applications/CAM360/Data/Posts/`. For example on my system this looks like:  `C:/Users/Mark/AppData/Local/Autodesk/webdeploy/production/8556a3e1d81f6c5f0bca3f1440fbfa311d80a809/Applications/CAM360/Data/Posts/`
+
+### Configure Fusion 360:
+
+Create a basic part (or open an existing one) so we can access the Post-Processor dialog box.
+![Create basic part](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicPart.PNG)
+
+Open the CAM Workspace (top left dropdown)
+![Open cam workspace](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-OpenCAMWorkspace.PNG)
+
+Add a basic cam operation (ignore this step if you've already got an operation from an existing part).
+![Basic cam operation](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicCAMOperation.PNG)
+
+Select the OmioCNC post-processor (omio-grbl) from the available post-processors.
+![Select omio-grbl](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-SelectPostConfiguration.PNG)
+
+## Installation into HSMWorks/HSMExpress:
 Once you have a working installation of Solidworks and HSMWorks (or HSMXpress), add this post processor by following these steps:
 
+### Download and extract the post-processor:
 * Download the repository as a ZIP file.
 * Extract the zip file and copy the file `omio-grbl.cps` into the folder `C:\Program Files\HSMWorks\posts` if you're using HSMWorks or `C:\Program Files\HSMXpress\posts` if you're using HSMXpress.
 
-## Setup HSMWorks/HSMExpress:
+### Configure HSMWorks/HSMExpress:
 
 Edit the current machine:
 ![Selecting post file](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Edit-Machine-edited.PNG)
