@@ -22,7 +22,7 @@ Add a basic cam operation (ignore this step if you've already got an operation f
 ![Basic cam operation](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-BasicCAMOperation-edited.PNG)
 
 Open the Post Process dialog for your cam operation.
-![Open Post Process](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-PostProcess-edited.png)
+![Open Post Process](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-PostProcess-edited.PNG)
 
 Select the OmioCNC post-processor (omio-grbl) from the available post-processors.
 ![Select omio-grbl](https://raw.githubusercontent.com/MarkHedleyJones/OmioCNC-Postprocessor/master/images/Fusion360-SelectPostConfiguration-edited.PNG)
