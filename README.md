@@ -5,7 +5,6 @@ Quirks with the way the OmioCNC controller interprets `.nc` files means the stan
 Fortunately, this customised grbl post generation script will have your CNC running with popular CAM packages such as Fusion360 and HSMWorks/HSMExpress.
 
 If you have any issues, suggestions, or improvements, please let me know by using the Issues tab in the github page.
-If you would like to donate you may do so via [Patreon](https://www.patreon.com/markhedleyjones).
 
 *NOTE*: I am not affiliated with OmioCNC, HSMWorks, or Fusion360. Use of this software is at your own risk, I am not responsible for any damages resulting from its use.
 
